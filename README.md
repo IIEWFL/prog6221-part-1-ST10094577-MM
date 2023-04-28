@@ -12,7 +12,7 @@
  
  #The software will not persist the user data between execution.
  
- #Data is stored in memory during execution
+ #Data is stored in memory only during execution
  
 Link to github repository git@github.com:IIEWFL/prog6221-part-1-ST10094577-MM.git
 
