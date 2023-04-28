@@ -5,11 +5,12 @@
  #The application will prompt the user to enter details for one recipe at a time.
  
 -for each ingredient : the name, quantity, and unit of measurement is entered and stored in a memory
+
 -for each step : the user shall describe the step and what should be done
 
  #The softwre should print the full recipe, its name and all the steps
  
- #The user shall be able to scale recipe, clear data and exit the application
+ #The user shall be able to scale recipe (with scale factor 0.5, 2 or 3), clear data and exit the application
  
  #The user shall clear all data in order to enter a new recipe
  
