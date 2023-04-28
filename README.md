@@ -15,3 +15,20 @@
  #Data is stored in memory during execution
  
 Link to github repository git@github.com:IIEWFL/prog6221-part-1-ST10094577-MM.git
+
+ #CODE ATTRIBUTION
+ 
+ generated from W3Schools
+ https://www.w3schools.com/cs/cs_user_input.php
+ 
+ generated from WebGentle
+ https://www.youtube.com/watch?v=vWN4Zmkd4hM
+ 
+ KevinTheTechLover
+ https://www.youtube.com/watch?v=0n_-Jwb2Xkc
+ 
+ Gamaliel Menil
+ https://www.youtube.com/watch?v=az8mHaJXpRE
+ 
+ generated from W3Schools
+ https://www.w3schools.com/cs/cs_user_input.php
