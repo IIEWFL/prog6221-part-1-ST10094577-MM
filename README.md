@@ -5,3 +5,4 @@ The application will prompt the user to enter details for one recipe at a time.
 The softwre should print the full recipe, its name and all the steps
 The user shall be able to scale recipe, clear data and exit the application
 The software will not persist the user data between execution.
+link to github repository git@github.com:IIEWFL/prog6221-part-1-ST10094577-MM.git
