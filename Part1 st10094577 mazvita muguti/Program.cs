@@ -74,7 +74,7 @@ namespace Part1_st10094577_mazvita_muguti
                 }
             }
 
-//ingredient class to store quantity, number,unit of measurement and name
+//ingredient class to store quantity, number,unit of measurement and name.
           public  class Ingredients
             {
                 string rname;
