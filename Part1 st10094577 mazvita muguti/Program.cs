@@ -20,8 +20,9 @@ namespace Part1_st10094577_mazvita_muguti
         class Recipe
              // this code was adapted from KevinTheTechLover
         //https://www.youtube.com/watch?v=0n_-Jwb2Xkc
-        {// Create a list to store ingredients
         {
+            // Create a list to store ingredients
+        
             private List<Ingredient> ingredients;
             private List<Step> steps;
             private int number;
