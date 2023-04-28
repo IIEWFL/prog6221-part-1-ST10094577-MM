@@ -18,6 +18,9 @@ namespace Part1_st10094577_mazvita_muguti
 
 
         class Recipe
+             // this code was adapted from KevinTheTechLover
+        //https://www.youtube.com/watch?v=0n_-Jwb2Xkc
+        {// Create a list to store ingredients
         {
             private List<Ingredient> ingredients;
             private List<Step> steps;
@@ -41,6 +44,8 @@ namespace Part1_st10094577_mazvita_muguti
             {
                 steps.Add(new Step { description = description });
             }
+            //this code was generated from Gamaliel Menil
+            //https://www.youtube.com/watch?v=az8mHaJXpRE
             public void Clear()
             {
                 ingredients.Clear();
@@ -53,6 +58,8 @@ namespace Part1_st10094577_mazvita_muguti
                     ingredient.Quantity *= factor;
                 }
             }
+            //this code was adapted from Knowing Nerves
+            //https://www.youtube.com/watch?v=fZ3IQgCNKww
             public void Print()
             {
                 Console.WriteLine("Ingredients:");
@@ -67,8 +74,8 @@ namespace Part1_st10094577_mazvita_muguti
                 }
             }
 
-
-            class Ingredients
+//ingredient class to store quantity, number,unit of measurement and name
+          public  class Ingredients
             {
                 string rname;
                 string name;
@@ -107,23 +114,30 @@ namespace Part1_st10094577_mazvita_muguti
 
                 while (true)
                 {
+                    //to display all user input, the code was generated from W3Schools
+                    //https://www.w3schools.com/cs/cs_user_input.php
+
                     //prompt user for number of ingredients
                     Console.Write("Enter the number of ingredients:");
                     int numIngredients = int.Parse(Console.ReadLine());
 
                     for (int i = 0; i < numIngredients; i++)
                     {
+                        //prompt user to enter name of ingredient
                         Console.WriteLine("Enter the name of ingredient {0}:", i + 1);
                         string name = Console.ReadLine();
-
+                        
+                        //prompt user to enter the quantity of ingredients
                         Console.WriteLine("Enter the quantity of ingredient {0}:", i + 1);
                         double quantity = double.Parse(Console.ReadLine());
-
+                        
+                         //prompt the user to enter the unit of measurement
                         Console.WriteLine("Enter unit of measurement of ingredient {0}:", i + 1);
                         string unit = Console.ReadLine();
                         recipe.AddIngredient(name, quantity, unit);
 
                     }
+                    //prompt the user to enter the number of steps
                     Console.WriteLine("Enter the number of steps:");
                     int numSteps = int.Parse(Console.ReadLine());
 
@@ -134,11 +148,16 @@ namespace Part1_st10094577_mazvita_muguti
 
                         recipe.AddStep(description);
                     }
+                    // Display all ingredients entered by user
                     Console.WriteLine("\nRecipe:" + rname);
                     recipe.Print();
 
                     while (true)
                     {
+                        //this code was generated from WebGentle
+                        //https://www.youtube.com/watch?v=vWN4Zmkd4hM
+
+                        //prompt user to enter their option
                         Console.WriteLine($"Enter '1' to scale recipe \n '2' reset the quantities \n'3' to clear data \n'4'to exit");
                         string input = Console.ReadLine();
 
