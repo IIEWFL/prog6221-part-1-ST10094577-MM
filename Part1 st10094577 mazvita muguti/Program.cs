@@ -135,6 +135,7 @@ namespace Part1_st10094577_mazvita_muguti
                         Console.WriteLine("Enter unit of measurement of ingredient {0}:", i + 1);
                         string unit = Console.ReadLine();
                         recipe.AddIngredient(name, quantity, unit);
+                         Console.WriteLine();
 
                     }
                     //prompt the user to enter the number of steps
@@ -148,6 +149,7 @@ namespace Part1_st10094577_mazvita_muguti
 
                         recipe.AddStep(description);
                     }
+                     Console.WriteLine();
                     // Display all ingredients entered by user
                     Console.WriteLine("\nRecipe:" + rname);
                     recipe.Print();
@@ -156,7 +158,8 @@ namespace Part1_st10094577_mazvita_muguti
                     {
                         //this code was generated from WebGentle
                         //https://www.youtube.com/watch?v=vWN4Zmkd4hM
-
+                        
+                         Console.WriteLine();
                         //prompt user to enter their option
                         Console.WriteLine($"Enter '1' to scale recipe \n '2' reset the quantities \n'3' to clear data \n'4'to exit");
                         string input = Console.ReadLine();
