@@ -58,7 +58,7 @@ namespace Part1_st10094577_mazvita_muguti
                     ingredient.Quantity *= factor;
                 }
             }
-            //this code was adapted from Knowing Nerves
+            //this code was adapted from Knowing Nerves.
             //https://www.youtube.com/watch?v=fZ3IQgCNKww
             public void Print()
             {
