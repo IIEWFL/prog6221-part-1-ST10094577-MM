@@ -162,7 +162,7 @@ namespace Part1_st10094577_mazvita_muguti
                         
                          Console.WriteLine();
                         //prompt user to enter their option
-                        Console.WriteLine($"Enter '1' to scale recipe \n '2' reset the quantities \n'3' to clear data \n'4'to exit");
+                        Console.WriteLine($"Enter '1' to scale recipe, '2' reset the quantities, '3' to clear data, '4'to exit");
                         string input = Console.ReadLine();
 
                         if (input == "1")
