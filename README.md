@@ -1,4 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Oa99dRjC) To access code - open tag1
+
+#HOW THE APPLICATION WORKS:
  #The application will prompt the user to enter details for one recipe at a time.
  
 -for each ingredient : the name, quantity, and unit of measurement is entered and stored in a memory
