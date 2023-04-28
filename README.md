@@ -16,7 +16,7 @@
  
 Link to github repository git@github.com:IIEWFL/prog6221-part-1-ST10094577-MM.git
 
- #CODE ATTRIBUTION
+ # MY CODE ATTRIBUTION
  
  generated from W3Schools
  https://www.w3schools.com/cs/cs_user_input.php
